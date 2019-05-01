@@ -1,0 +1,35 @@
+.tone-board-container {
+  border : 1px solid black;
+  margin : 10px;
+  padding : 5px;
+}
+
+.tone-board {
+  display : grid;
+  //grid-template-columns : repeat(9, 32px);
+  grid-gap : 2px;
+  //border : 1px solid black;
+  margin : 10px;
+  padding : 5px;
+  //width : 333px;
+}
+
+.tone-board div:first-child {
+  grid-column : 2;
+}
+
+.big-tone-board-container {
+  width : 900px;
+}
+
+.big-tone-board {
+  display : grid;
+  //grid-template-columns : repeat(25, 32px);
+  grid-gap : 2px;
+
+  border : 3px double black;
+  margin : 10px;
+  padding : 5px;
+
+  box-sizing: border-box;
+}
