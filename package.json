@@ -2,6 +2,7 @@
   "name": "music-toy",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://thomasoniii.github.io/music-toy",
   "dependencies": {
     "ajv": "^6.5.2",
     "axios": "^0.18.0",
@@ -24,7 +25,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy" : "gh-pages -d build"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1"
